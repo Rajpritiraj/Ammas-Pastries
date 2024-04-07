@@ -1,0 +1,301 @@
+body{
+    overflow-x: hidden;
+    margin: 0px;
+   
+}
+
+header{
+    height: 55px;
+    background-color: rgb(244, 146, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+#search{
+    height: 55px;
+  
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+}
+#searchbar{
+    background-color:  #3c4043;
+    height: 30px;
+    width: 500px;
+    text-align: left;
+    border-radius: 5px;
+    position: relative;
+    right: 95px;
+}
+
+#login{
+    font-size:17px ;
+    position: relative;
+    right: 120px;
+    text-decoration: none;
+    color:rgb(244, 146, 1) 
+    
+}
+#searchtext{
+    color:rgb(244, 146, 1) ;
+    font-size:16px ;
+    margin-left: 50px;
+}
+#locationicon{
+    /* margin-left: 180px; */
+}
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #2f3236;
+    text-align: center;
+    color: rgb(244, 146, 1);
+    font-size: 16px;
+}
+main{
+   background-image: url(https://static.wixstatic.com/media/647652_3e566fa221034b488c32915fa0bf191f~mv2.jpg/v1/fill/w_1200,h_570,al_c,q_85,enc_auto/647652_3e566fa221034b488c32915fa0bf191f~mv2.jpg);
+   background-attachment: fixed;
+}
+main button{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    background-color:rgb(244, 146, 1) ;
+    position: fixed;
+    left: 1000px;
+    top: 400px;
+    border: none;
+    
+}
+#tenpicture{
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+.allpic{
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  
+ 
+}
+.pictext10{
+    color:white ;
+    text-align: center;
+    font-size: 15px;
+}
+
+#pic1{
+    background-image: url(https://static.wixstatic.com/media/647652_f6ac86a8cfdf4424a7d5594965f3dc4d~mv2.jpg/v1/fill/w_93,h_93,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/647652_f6ac86a8cfdf4424a7d5594965f3dc4d~mv2.jpg);
+
+    background-size: cover;
+
+}
+#pic2{
+   background-image: url(https://static.wixstatic.com/media/ebe07d_e9424267b7e142bfa4c496076dee5e9d~mv2.jpg/v1/fill/w_93,h_93,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/16%20copy.jpg);
+    background-size: cover;
+}
+#pic3{
+    background-image: url(https://static.wixstatic.com/media/ebe07d_a3421e1303b54b3bb61a613bc7ceacb8~mv2.jpg/v1/fill/w_93,h_93,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/rasmalai%20cake.jpg);
+    background-size: cover;
+}
+#pic4{
+    background-image: url(https://static.wixstatic.com/media/c29b8c_102754fb0bf044c89a094482bb12cf84~mv2.jpg/v1/fill/w_93,h_93,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Six%20Wonders.jpg);
+    background-size: cover;
+}
+#pic5{
+    background-image: url(https://static.wixstatic.com/media/647652_3952514e6aab40918425ab798fb989ee~mv2.jpg/v1/fill/w_93,h_93,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Russian%20Honey%20Cake_edited.jpg);
+    background-size: cover;
+}
+#pic6{
+    background-image:url(https://static.wixstatic.com/media/c29b8c_bbbe1dd66d074c0292a22d41ea5fa3b2~mv2.jpg/v1/fill/w_93,h_93,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Classic%20Black%20Forest.jpg) ;
+    background-size: cover;
+}
+#pic7{
+    background-image: url(https://static.wixstatic.com/media/ebe07d_d91b3038dee04d30a8d93a92d998c7c7~mv2.jpg/v1/fill/w_93,h_93,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/spanish%20Delight.jpg);
+    background-size: cover;
+}
+#pic8{
+    background-image:url(https://static.wixstatic.com/media/ebe07d_d91b3038dee04d30a8d93a92d998c7c7~mv2.jpg/v1/fill/w_93,h_93,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/spanish%20Delight.jpg) ;
+    background-size: cover;
+}
+#pic9{
+    background-image:url(https://static.wixstatic.com/media/c29b8c_cb50070781b942f383423ab9d12bfa57~mv2.jpg/v1/fill/w_93,h_93,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Choco%20Butterscotch.jpg) ;
+    background-size: cover;
+}
+#pic10{
+    background-image:url(https://static.wixstatic.com/media/ebe07d_5070dfc0dbca4808a5c549e7628847ad~mv2.jpg/v1/fill/w_93,h_93,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Baked%20Cheese%20Cake.jpg) ;
+    background-size: cover;
+}
+#picture1{
+    height: 400px;
+    width: 70%;
+  
+   margin: auto;
+   position: relative;
+   top: 50px;
+   border-radius: 10px;
+   background-image: url(https://static.wixstatic.com/media/ebe07d_05e25039d95d4648a806ec69896cf325~mv2.jpg/v1/fill/w_980,h_471,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ebe07d_05e25039d95d4648a806ec69896cf325~mv2.jpg);
+   background-size: cover;
+}
+#picture2{
+    display: flex;
+    /* justify-content: center; */
+    height: 230px;
+    width: 70%;
+    
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+#picture2a{
+  
+    /* height: 200px; */
+    width: 50%;
+    background-image: url(https://static.wixstatic.com/media/647652_0921f4bce57f4564b102a5952e6d3e30~mv2.jpeg/v1/fill/w_465,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Torte%20Dream%20Cake.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+   
+}
+#picture2b{
+   
+    width: 50%;
+    height: 25%;
+    background-image: url();
+    background-size: cover;
+    position: relative;
+       
+}
+
+#rating{
+    height: 50px;
+    width: 90%;
+    background-color:rgb(244, 146, 1) ;
+    border-radius: 10px;
+    position: relative;
+    right: -20px;
+    color: white;
+   display: flex;
+   justify-content: space-around;
+   /* flex-direction: column; */
+   
+  
+}
+#ratingstar{
+    padding-top: 20px;
+}
+#picture2ba{
+    height: 156px;
+    width: 50%;
+    margin-top: 20px;
+    background-image: url( https://static.wixstatic.com/media/ebe07d_976a0cb9145749518438f6894c4e9e5d~mv2.jpg/v1/fill/w_239,h_179,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1W5A0203%20copy_edited_edited.jpg);
+    background-size: cover;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+#picture2bb{
+    height:156px ;
+    width: 40%;
+    position: relative;
+    top: -156px;
+    left:215px ;
+    background-image: url(https://static.wixstatic.com/media/nsplsh_e653ac935475401886b3556135aa63ff~mv2.jpg/v1/fill/w_239,h_179,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image%20by%20Hamid%20Roshaan.jpg);
+    background-size: cover;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+
+
+#something{
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    margin-bottom: 200px;
+    background-image: url(https://static.wixstatic.com/media/ebe07d_d33c55648d524d8ab992e3af492ecb52~mv2.jpg/v1/fill/w_980,h_472,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ebe07d_d33c55648d524d8ab992e3af492ecb52~mv2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+#last{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 440px 440px;
+    row-gap: 50px;
+    column-gap: 100px;
+     /* position: relative; */
+     /* top: 200px;   */
+    left:50px ;
+    margin: auto;
+    
+}
+#grid1{
+    background-image: url(https://static.wixstatic.com/media/nsplsh_7a4e484f497a6a4a697941~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_277,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/nsplsh_7a4e484f497a6a4a697941~mv2_d_5184_3456_s_4_2.jpg);
+    background-size: cover;
+    border-radius:0% 0% 45% 45%;
+}
+#grid2{
+    background-image: url(https://static.wixstatic.com/media/647652_94a29896fb2c40c3aeff886a1fcb56ec~mv2.jpg/v1/fill/w_277,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/647652_94a29896fb2c40c3aeff886a1fcb56ec~mv2.jpg);
+    background-size: cover;
+    border-radius:0% 0% 45% 45%;
+}
+#grid3{
+    background-image: url(https://static.wixstatic.com/media/6d1a3bf766a5407f8b9aa0f7e9342d43.jpg/v1/fill/w_277,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/6d1a3bf766a5407f8b9aa0f7e9342d43.jpg);
+    background-size: cover;
+    border-radius:0% 0% 45% 45%;
+}
+#grid4{
+    background-image: url(https://static.wixstatic.com/media/11062b_aa40c3944558416985a38586f62517c6~mv2.jpg/v1/fill/w_277,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_aa40c3944558416985a38586f62517c6~mv2.jpg);
+    background-size: cover;
+    border-radius: 45% 45% 0% 0%;
+}
+#grid5{
+    background-image: url(https://static.wixstatic.com/media/4254ae9dbb444684bb54933731700478.jpg/v1/fill/w_277,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4254ae9dbb444684bb54933731700478.jpg);
+    background-size: cover;
+    border-radius: 45% 45% 0% 0%;
+}
+#grid6{
+    background-image: url(https://static.wixstatic.com/media/43129f00df46422683fafef7aba8e9df.jpg/v1/fill/w_277,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/43129f00df46422683fafef7aba8e9df.jpg);
+    background-size: cover;
+    border-radius: 45% 45% 0% 0%;
+}
+footer{
+    height: 380px;
+    width: 100%;
+    background-color:rgb(244, 146, 1)  ;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-evenly;
+   /* position: relative; */
+   /* top: -200px; */
+   
+   
+    
+    /* line-height: 10px; */
+}
+#footerp{
+    /* position: relative; */
+    /* top: 310px; */
+    /* right: 480px; */
+    color: white;
+}
+footer h4{
+    color: white;
+    font-size: 18px;
+}
+
+/* footer{
+    margin-bottom: 0px;
+} */
